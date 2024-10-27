@@ -7,12 +7,12 @@ from uss.utils import get_path
 csv_paths_dict = {
     "class_labels_indices.csv": {
         "path": Path(Path.home(), ".cache/uss/metadata/class_labels_indices.csv"),
-        "remote_path": "https://sandbox.zenodo.org/record/1186898/files/class_labels_indices.csv?download=1",
+        "remote_path": "https://huggingface.co/RSNuts/Universal_Source_Separation/resolve/main/uss_material/class_labels_indices.csv?download=true",
         "size": 14675,
     },
     "ontology.csv": {
         "path": Path(Path.home(), ".cache/uss/metadata/ontology.json"),
-        "remote_path": "https://sandbox.zenodo.org/record/1186898/files/ontology.json?download=1",
+        "remote_path": "https://huggingface.co/RSNuts/Universal_Source_Separation/resolve/main/uss_material/ontology.json?download=true",
         "size": 342780,
     },
 }
